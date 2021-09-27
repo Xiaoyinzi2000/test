@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/show_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/sin_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="200dp"
+                android:gravity="center"
+                android:text="sin">
+
+            </Button>
+
+            <Button
+                android:id="@+id/cos_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="cos">
+
+            </Button>
+
+            <Button
+                android:id="@+id/tan_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="tan">
+
+            </Button>
+
+            <Button
+                android:id="@+id/lg_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="lg">
+
+            </Button>
+
+            <Button
+                android:id="@+id/op_add_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="+">
+
+            </Button>
+
+            <Button
+                android:id="@+id/op_sub_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="-">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/num9_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="9">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num8_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="8">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num7_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="7">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num6_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="6">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num5_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="5">
+
+            </Button>
+
+            <Button
+                android:id="@+id/op_multi_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="×">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/num4_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="4">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num3_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="3">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num2_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="2">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num1_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="1">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num0_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="0">
+
+            </Button>
+
+            <Button
+                android:id="@+id/op_division_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="÷">
+
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/point_btn"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text=".">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num00_btn"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/_00">
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/op_equal_btn"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="=">
+
+            </Button>
+
+            <Button
+                android:id="@+id/clear_btn"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="C">
+
+            </Button>
+
+            <Button
+                android:id="@+id/backspace_btn"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="BackSpace">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

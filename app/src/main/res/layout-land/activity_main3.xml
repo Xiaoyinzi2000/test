@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="长度单位换算                 体积单位换算"
+                android:textColor="#9900AA"
+                android:textSize="35sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="输入数据:"
+        android:textColor="#99CCAA"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="输入数据:"
+        android:textColor="#99CCAA"
+        android:textSize="30sp" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="单位类型:"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="253dp"
+                    android:layout_height="35dp"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tv_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="单位类型:"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+                <Spinner
+                    android:id="@+id/spinner5"
+                    android:layout_width="252dp"
+                    android:layout_height="35dp"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_shuru1"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"></EditText>
+
+                <EditText
+                    android:id="@+id/et_shuru2"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"></EditText>
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="输出数据:"
+        android:textColor="#99CCAA"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="输出数据:"
+        android:textColor="#99CCAA"
+        android:textSize="30sp" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="单位类型:"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="253dp"
+                    android:layout_height="35dp"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tv_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="单位类型:"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+                <Spinner
+                    android:id="@+id/spinner6"
+                    android:layout_width="253dp"
+                    android:layout_height="35dp"
+                    android:textSize="30sp" />
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/et_shuchu1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_shuchu2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_CE1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CE" />
+
+                <Button
+                    android:id="@+id/btn_js1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="计算" />
+
+                <Button
+                    android:id="@+id/btn_CE2"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CE" />
+
+                <Button
+                    android:id="@+id/btn_js2"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="计算" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
