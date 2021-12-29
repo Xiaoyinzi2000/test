@@ -689,6 +689,7 @@ public class MainActivity extends AppCompatActivity
                                                 return;
                                             }
                                             double d = Double.valueOf(str);
+                                            d = Math.toRadians(d);
                                             d = Math.sin(d);
                                             num_stack.push(d + "");
                                         }
@@ -709,6 +710,7 @@ public class MainActivity extends AppCompatActivity
                                                 return;
                                             }
                                             double d = Double.valueOf(str);
+                                            d = Math.toRadians(d);
                                             num_stack.push(Math.cos(d)+"");
                                         }
                                         else if (str.equals("tan("))
@@ -728,6 +730,7 @@ public class MainActivity extends AppCompatActivity
                                                 return;
                                             }
                                             double d = Double.valueOf(str);
+                                            d = Math.toRadians(d);
                                             num_stack.push(Math.tan(d)+"");
                                         }
                                         else
